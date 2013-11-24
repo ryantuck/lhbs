@@ -7,6 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946EE9D51841977600AD0B11 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946EE9D31841977600AD0B11 /* MainMenu.xib */; };
+		946EE9D81841978000AD0B11 /* LITAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9D71841978000AD0B11 /* LITAppDelegate.mm */; };
+		946EEA3F184197EF00AD0B11 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9DA184197EF00AD0B11 /* Audio.cpp */; };
+		946EEA40184197EF00AD0B11 /* BandMeterFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9DC184197EF00AD0B11 /* BandMeterFoo.cpp */; };
+		946EEA41184197EF00AD0B11 /* Battery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9DE184197EF00AD0B11 /* Battery.cpp */; };
+		946EEA42184197EF00AD0B11 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9E0184197EF00AD0B11 /* Button.cpp */; };
+		946EEA43184197EF00AD0B11 /* ChargedFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9E2184197EF00AD0B11 /* ChargedFoo.cpp */; };
+		946EEA44184197EF00AD0B11 /* CirclesFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9E4184197EF00AD0B11 /* CirclesFoo.cpp */; };
+		946EEA45184197EF00AD0B11 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9E6184197EF00AD0B11 /* Color.cpp */; };
+		946EEA46184197EF00AD0B11 /* CustomFoos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9E8184197EF00AD0B11 /* CustomFoos.cpp */; };
+		946EEA47184197EF00AD0B11 /* EMFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9EA184197EF00AD0B11 /* EMFoo.cpp */; };
+		946EEA48184197EF00AD0B11 /* EphemeralSnakesFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9EC184197EF00AD0B11 /* EphemeralSnakesFoo.cpp */; };
+		946EEA49184197EF00AD0B11 /* EventFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9EE184197EF00AD0B11 /* EventFoo.cpp */; };
+		946EEA4A184197EF00AD0B11 /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9F0184197EF00AD0B11 /* Foo.cpp */; };
+		946EEA4B184197EF00AD0B11 /* Foo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9F2184197EF00AD0B11 /* Foo2.cpp */; };
+		946EEA4C184197EF00AD0B11 /* FooManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9F4184197EF00AD0B11 /* FooManager.cpp */; };
+		946EEA4D184197EF00AD0B11 /* Force.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9F6184197EF00AD0B11 /* Force.cpp */; };
+		946EEA4E184197EF00AD0B11 /* GravityFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9F8184197EF00AD0B11 /* GravityFoo.cpp */; };
+		946EEA4F184197EF00AD0B11 /* Hardware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9FA184197EF00AD0B11 /* Hardware.cpp */; };
+		946EEA50184197EF00AD0B11 /* Headband.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9FC184197EF00AD0B11 /* Headband.cpp */; };
+		946EEA51184197EF00AD0B11 /* InProgressCustomFoos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EE9FE184197EF00AD0B11 /* InProgressCustomFoos.cpp */; };
+		946EEA52184197EF00AD0B11 /* KernFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA00184197EF00AD0B11 /* KernFoo.cpp */; };
+		946EEA53184197EF00AD0B11 /* LED.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA02184197EF00AD0B11 /* LED.cpp */; };
+		946EEA54184197EF00AD0B11 /* LinkedFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA04184197EF00AD0B11 /* LinkedFoo.cpp */; };
+		946EEA55184197EF00AD0B11 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA06184197EF00AD0B11 /* LinkedList.cpp */; };
+		946EEA56184197EF00AD0B11 /* ListenerFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA08184197EF00AD0B11 /* ListenerFoo.cpp */; };
+		946EEA57184197EF00AD0B11 /* LIT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA0A184197EF00AD0B11 /* LIT.cpp */; };
+		946EEA58184197EF00AD0B11 /* LITColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA0C184197EF00AD0B11 /* LITColor.cpp */; };
+		946EEA59184197EF00AD0B11 /* LITFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA0E184197EF00AD0B11 /* LITFunctions.cpp */; };
+		946EEA5A184197EF00AD0B11 /* LPD8806.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA10184197EF00AD0B11 /* LPD8806.cpp */; };
+		946EEA5B184197EF00AD0B11 /* MassFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA12184197EF00AD0B11 /* MassFoo.cpp */; };
+		946EEA5C184197EF00AD0B11 /* MCP4131.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA14184197EF00AD0B11 /* MCP4131.cpp */; };
+		946EEA5D184197EF00AD0B11 /* MemTestingFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA16184197EF00AD0B11 /* MemTestingFoo.cpp */; };
+		946EEA5E184197EF00AD0B11 /* MovingFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA18184197EF00AD0B11 /* MovingFoo.cpp */; };
+		946EEA5F184197EF00AD0B11 /* MSGEQ7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA1A184197EF00AD0B11 /* MSGEQ7.cpp */; };
+		946EEA60184197EF00AD0B11 /* MultipleBouncingFoos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA1C184197EF00AD0B11 /* MultipleBouncingFoos.cpp */; };
+		946EEA61184197EF00AD0B11 /* OscillatingFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA1E184197EF00AD0B11 /* OscillatingFoo.cpp */; };
+		946EEA62184197EF00AD0B11 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA20184197EF00AD0B11 /* Parameters.cpp */; };
+		946EEA63184197EF00AD0B11 /* RainbowFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA22184197EF00AD0B11 /* RainbowFoo.cpp */; };
+		946EEA64184197EF00AD0B11 /* RainbowLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA24184197EF00AD0B11 /* RainbowLine.cpp */; };
+		946EEA65184197EF00AD0B11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 946EEA26184197EF00AD0B11 /* README.md */; };
+		946EEA66184197EF00AD0B11 /* Registers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA27184197EF00AD0B11 /* Registers.cpp */; };
+		946EEA67184197EF00AD0B11 /* ShiftRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA29184197EF00AD0B11 /* ShiftRegister.cpp */; };
+		946EEA68184197EF00AD0B11 /* Step.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA2B184197EF00AD0B11 /* Step.cpp */; };
+		946EEA69184197EF00AD0B11 /* stepFoo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA2D184197EF00AD0B11 /* stepFoo1.cpp */; };
+		946EEA6A184197EF00AD0B11 /* basicHeadbandSketch.ino in Resources */ = {isa = PBXBuildFile; fileRef = 946EEA32184197EF00AD0B11 /* basicHeadbandSketch.ino */; };
+		946EEA6B184197EF00AD0B11 /* basicHeadbandSketch1.ino in Resources */ = {isa = PBXBuildFile; fileRef = 946EEA34184197EF00AD0B11 /* basicHeadbandSketch1.ino */; };
+		946EEA6C184197EF00AD0B11 /* memoryTesting.ino in Resources */ = {isa = PBXBuildFile; fileRef = 946EEA35184197EF00AD0B11 /* memoryTesting.ino */; };
+		946EEA6D184197EF00AD0B11 /* Arduino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA37184197EF00AD0B11 /* Arduino.cpp */; };
+		946EEA6E184197EF00AD0B11 /* Serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA39184197EF00AD0B11 /* Serial.cpp */; };
+		946EEA6F184197EF00AD0B11 /* SPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA3B184197EF00AD0B11 /* SPI.cpp */; };
+		946EEA70184197EF00AD0B11 /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946EEA3D184197EF00AD0B11 /* Tester.cpp */; };
 		94DEC6821841940400463DAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DEC6811841940400463DAE /* Cocoa.framework */; };
 		94DEC68C1841940400463DAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC68A1841940400463DAE /* InfoPlist.strings */; };
 		94DEC68E1841940400463DAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC68D1841940400463DAE /* main.m */; };
@@ -16,58 +68,6 @@
 		94DEC6A21841940400463DAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DEC6811841940400463DAE /* Cocoa.framework */; };
 		94DEC6AA1841940400463DAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC6A81841940400463DAE /* InfoPlist.strings */; };
 		94DEC6AC1841940400463DAE /* litHeadbandSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6AB1841940400463DAE /* litHeadbandSimulatorTests.m */; };
-		94DEC6B71841941700463DAE /* LITAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6B61841941700463DAE /* LITAppDelegate.mm */; };
-		94DEC71E1841944300463DAE /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6B91841944300463DAE /* Audio.cpp */; };
-		94DEC71F1841944300463DAE /* BandMeterFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6BB1841944300463DAE /* BandMeterFoo.cpp */; };
-		94DEC7201841944300463DAE /* Battery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6BD1841944300463DAE /* Battery.cpp */; };
-		94DEC7211841944300463DAE /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6BF1841944300463DAE /* Button.cpp */; };
-		94DEC7221841944300463DAE /* ChargedFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6C11841944300463DAE /* ChargedFoo.cpp */; };
-		94DEC7231841944300463DAE /* CirclesFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6C31841944300463DAE /* CirclesFoo.cpp */; };
-		94DEC7241841944300463DAE /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6C51841944300463DAE /* Color.cpp */; };
-		94DEC7251841944300463DAE /* CustomFoos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6C71841944300463DAE /* CustomFoos.cpp */; };
-		94DEC7261841944300463DAE /* EMFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6C91841944300463DAE /* EMFoo.cpp */; };
-		94DEC7271841944300463DAE /* EphemeralSnakesFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6CB1841944300463DAE /* EphemeralSnakesFoo.cpp */; };
-		94DEC7281841944300463DAE /* EventFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6CD1841944300463DAE /* EventFoo.cpp */; };
-		94DEC7291841944300463DAE /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6CF1841944300463DAE /* Foo.cpp */; };
-		94DEC72A1841944300463DAE /* Foo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6D11841944300463DAE /* Foo2.cpp */; };
-		94DEC72B1841944300463DAE /* FooManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6D31841944300463DAE /* FooManager.cpp */; };
-		94DEC72C1841944300463DAE /* Force.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6D51841944300463DAE /* Force.cpp */; };
-		94DEC72D1841944300463DAE /* GravityFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6D71841944300463DAE /* GravityFoo.cpp */; };
-		94DEC72E1841944300463DAE /* Hardware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6D91841944300463DAE /* Hardware.cpp */; };
-		94DEC72F1841944300463DAE /* Headband.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6DB1841944300463DAE /* Headband.cpp */; };
-		94DEC7301841944300463DAE /* InProgressCustomFoos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6DD1841944300463DAE /* InProgressCustomFoos.cpp */; };
-		94DEC7311841944300463DAE /* KernFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6DF1841944300463DAE /* KernFoo.cpp */; };
-		94DEC7321841944300463DAE /* LED.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6E11841944300463DAE /* LED.cpp */; };
-		94DEC7331841944300463DAE /* LinkedFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6E31841944300463DAE /* LinkedFoo.cpp */; };
-		94DEC7341841944300463DAE /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6E51841944300463DAE /* LinkedList.cpp */; };
-		94DEC7351841944300463DAE /* ListenerFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6E71841944300463DAE /* ListenerFoo.cpp */; };
-		94DEC7361841944300463DAE /* LIT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6E91841944300463DAE /* LIT.cpp */; };
-		94DEC7371841944300463DAE /* LITColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6EB1841944300463DAE /* LITColor.cpp */; };
-		94DEC7381841944300463DAE /* LITFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6ED1841944300463DAE /* LITFunctions.cpp */; };
-		94DEC7391841944300463DAE /* LPD8806.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6EF1841944300463DAE /* LPD8806.cpp */; };
-		94DEC73A1841944300463DAE /* MassFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6F11841944300463DAE /* MassFoo.cpp */; };
-		94DEC73B1841944300463DAE /* MCP4131.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6F31841944300463DAE /* MCP4131.cpp */; };
-		94DEC73C1841944300463DAE /* MemTestingFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6F51841944300463DAE /* MemTestingFoo.cpp */; };
-		94DEC73D1841944300463DAE /* MovingFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6F71841944300463DAE /* MovingFoo.cpp */; };
-		94DEC73E1841944300463DAE /* MSGEQ7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6F91841944300463DAE /* MSGEQ7.cpp */; };
-		94DEC73F1841944300463DAE /* MultipleBouncingFoos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6FB1841944300463DAE /* MultipleBouncingFoos.cpp */; };
-		94DEC7401841944300463DAE /* OscillatingFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6FD1841944300463DAE /* OscillatingFoo.cpp */; };
-		94DEC7411841944300463DAE /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC6FF1841944300463DAE /* Parameters.cpp */; };
-		94DEC7421841944300463DAE /* RainbowFoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC7011841944300463DAE /* RainbowFoo.cpp */; };
-		94DEC7431841944300463DAE /* RainbowLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC7031841944300463DAE /* RainbowLine.cpp */; };
-		94DEC7441841944300463DAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC7051841944300463DAE /* README.md */; };
-		94DEC7451841944300463DAE /* Registers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC7061841944300463DAE /* Registers.cpp */; };
-		94DEC7461841944300463DAE /* ShiftRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC7081841944300463DAE /* ShiftRegister.cpp */; };
-		94DEC7471841944300463DAE /* Step.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC70A1841944300463DAE /* Step.cpp */; };
-		94DEC7481841944300463DAE /* stepFoo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC70C1841944300463DAE /* stepFoo1.cpp */; };
-		94DEC7491841944300463DAE /* basicHeadbandSketch.ino in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC7111841944300463DAE /* basicHeadbandSketch.ino */; };
-		94DEC74A1841944300463DAE /* basicHeadbandSketch1.ino in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC7131841944300463DAE /* basicHeadbandSketch1.ino */; };
-		94DEC74B1841944300463DAE /* memoryTesting.ino in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC7141841944300463DAE /* memoryTesting.ino */; };
-		94DEC74C1841944300463DAE /* Arduino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC7161841944300463DAE /* Arduino.cpp */; };
-		94DEC74D1841944300463DAE /* Serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC7181841944300463DAE /* Serial.cpp */; };
-		94DEC74E1841944300463DAE /* SPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC71A1841944300463DAE /* SPI.cpp */; };
-		94DEC74F1841944300463DAE /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC71C1841944300463DAE /* Tester.cpp */; };
-		94DEC7511841958800463DAE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DEC7501841958800463DAE /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +81,105 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		946EE9D41841977600AD0B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = litHeadbandSimulator/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		946EE9D61841978000AD0B11 /* LITAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITAppDelegate.h; sourceTree = "<group>"; };
+		946EE9D71841978000AD0B11 /* LITAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LITAppDelegate.mm; sourceTree = "<group>"; };
+		946EE9DA184197EF00AD0B11 /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
+		946EE9DB184197EF00AD0B11 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		946EE9DC184197EF00AD0B11 /* BandMeterFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BandMeterFoo.cpp; sourceTree = "<group>"; };
+		946EE9DD184197EF00AD0B11 /* BandMeterFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandMeterFoo.h; sourceTree = "<group>"; };
+		946EE9DE184197EF00AD0B11 /* Battery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battery.cpp; sourceTree = "<group>"; };
+		946EE9DF184197EF00AD0B11 /* Battery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battery.h; sourceTree = "<group>"; };
+		946EE9E0184197EF00AD0B11 /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		946EE9E1184197EF00AD0B11 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		946EE9E2184197EF00AD0B11 /* ChargedFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChargedFoo.cpp; sourceTree = "<group>"; };
+		946EE9E3184197EF00AD0B11 /* ChargedFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargedFoo.h; sourceTree = "<group>"; };
+		946EE9E4184197EF00AD0B11 /* CirclesFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CirclesFoo.cpp; sourceTree = "<group>"; };
+		946EE9E5184197EF00AD0B11 /* CirclesFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesFoo.h; sourceTree = "<group>"; };
+		946EE9E6184197EF00AD0B11 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		946EE9E7184197EF00AD0B11 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		946EE9E8184197EF00AD0B11 /* CustomFoos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomFoos.cpp; sourceTree = "<group>"; };
+		946EE9E9184197EF00AD0B11 /* CustomFoos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFoos.h; sourceTree = "<group>"; };
+		946EE9EA184197EF00AD0B11 /* EMFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EMFoo.cpp; sourceTree = "<group>"; };
+		946EE9EB184197EF00AD0B11 /* EMFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFoo.h; sourceTree = "<group>"; };
+		946EE9EC184197EF00AD0B11 /* EphemeralSnakesFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EphemeralSnakesFoo.cpp; sourceTree = "<group>"; };
+		946EE9ED184197EF00AD0B11 /* EphemeralSnakesFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EphemeralSnakesFoo.h; sourceTree = "<group>"; };
+		946EE9EE184197EF00AD0B11 /* EventFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventFoo.cpp; sourceTree = "<group>"; };
+		946EE9EF184197EF00AD0B11 /* EventFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFoo.h; sourceTree = "<group>"; };
+		946EE9F0184197EF00AD0B11 /* Foo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Foo.cpp; sourceTree = "<group>"; };
+		946EE9F1184197EF00AD0B11 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		946EE9F2184197EF00AD0B11 /* Foo2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Foo2.cpp; sourceTree = "<group>"; };
+		946EE9F3184197EF00AD0B11 /* Foo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo2.h; sourceTree = "<group>"; };
+		946EE9F4184197EF00AD0B11 /* FooManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FooManager.cpp; sourceTree = "<group>"; };
+		946EE9F5184197EF00AD0B11 /* FooManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooManager.h; sourceTree = "<group>"; };
+		946EE9F6184197EF00AD0B11 /* Force.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Force.cpp; sourceTree = "<group>"; };
+		946EE9F7184197EF00AD0B11 /* Force.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Force.h; sourceTree = "<group>"; };
+		946EE9F8184197EF00AD0B11 /* GravityFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GravityFoo.cpp; sourceTree = "<group>"; };
+		946EE9F9184197EF00AD0B11 /* GravityFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityFoo.h; sourceTree = "<group>"; };
+		946EE9FA184197EF00AD0B11 /* Hardware.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hardware.cpp; sourceTree = "<group>"; };
+		946EE9FB184197EF00AD0B11 /* Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hardware.h; sourceTree = "<group>"; };
+		946EE9FC184197EF00AD0B11 /* Headband.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Headband.cpp; sourceTree = "<group>"; };
+		946EE9FD184197EF00AD0B11 /* Headband.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headband.h; sourceTree = "<group>"; };
+		946EE9FE184197EF00AD0B11 /* InProgressCustomFoos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InProgressCustomFoos.cpp; sourceTree = "<group>"; };
+		946EE9FF184197EF00AD0B11 /* InProgressCustomFoos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InProgressCustomFoos.h; sourceTree = "<group>"; };
+		946EEA00184197EF00AD0B11 /* KernFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KernFoo.cpp; sourceTree = "<group>"; };
+		946EEA01184197EF00AD0B11 /* KernFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernFoo.h; sourceTree = "<group>"; };
+		946EEA02184197EF00AD0B11 /* LED.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LED.cpp; sourceTree = "<group>"; };
+		946EEA03184197EF00AD0B11 /* LED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LED.h; sourceTree = "<group>"; };
+		946EEA04184197EF00AD0B11 /* LinkedFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedFoo.cpp; sourceTree = "<group>"; };
+		946EEA05184197EF00AD0B11 /* LinkedFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedFoo.h; sourceTree = "<group>"; };
+		946EEA06184197EF00AD0B11 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		946EEA07184197EF00AD0B11 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		946EEA08184197EF00AD0B11 /* ListenerFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListenerFoo.cpp; sourceTree = "<group>"; };
+		946EEA09184197EF00AD0B11 /* ListenerFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenerFoo.h; sourceTree = "<group>"; };
+		946EEA0A184197EF00AD0B11 /* LIT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LIT.cpp; sourceTree = "<group>"; };
+		946EEA0B184197EF00AD0B11 /* LIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIT.h; sourceTree = "<group>"; };
+		946EEA0C184197EF00AD0B11 /* LITColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LITColor.cpp; sourceTree = "<group>"; };
+		946EEA0D184197EF00AD0B11 /* LITColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITColor.h; sourceTree = "<group>"; };
+		946EEA0E184197EF00AD0B11 /* LITFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LITFunctions.cpp; sourceTree = "<group>"; };
+		946EEA0F184197EF00AD0B11 /* LITFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFunctions.h; sourceTree = "<group>"; };
+		946EEA10184197EF00AD0B11 /* LPD8806.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LPD8806.cpp; sourceTree = "<group>"; };
+		946EEA11184197EF00AD0B11 /* LPD8806.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPD8806.h; sourceTree = "<group>"; };
+		946EEA12184197EF00AD0B11 /* MassFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MassFoo.cpp; sourceTree = "<group>"; };
+		946EEA13184197EF00AD0B11 /* MassFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassFoo.h; sourceTree = "<group>"; };
+		946EEA14184197EF00AD0B11 /* MCP4131.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCP4131.cpp; sourceTree = "<group>"; };
+		946EEA15184197EF00AD0B11 /* MCP4131.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCP4131.h; sourceTree = "<group>"; };
+		946EEA16184197EF00AD0B11 /* MemTestingFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemTestingFoo.cpp; sourceTree = "<group>"; };
+		946EEA17184197EF00AD0B11 /* MemTestingFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemTestingFoo.h; sourceTree = "<group>"; };
+		946EEA18184197EF00AD0B11 /* MovingFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MovingFoo.cpp; sourceTree = "<group>"; };
+		946EEA19184197EF00AD0B11 /* MovingFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingFoo.h; sourceTree = "<group>"; };
+		946EEA1A184197EF00AD0B11 /* MSGEQ7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MSGEQ7.cpp; sourceTree = "<group>"; };
+		946EEA1B184197EF00AD0B11 /* MSGEQ7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGEQ7.h; sourceTree = "<group>"; };
+		946EEA1C184197EF00AD0B11 /* MultipleBouncingFoos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleBouncingFoos.cpp; sourceTree = "<group>"; };
+		946EEA1D184197EF00AD0B11 /* MultipleBouncingFoos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleBouncingFoos.h; sourceTree = "<group>"; };
+		946EEA1E184197EF00AD0B11 /* OscillatingFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscillatingFoo.cpp; sourceTree = "<group>"; };
+		946EEA1F184197EF00AD0B11 /* OscillatingFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscillatingFoo.h; sourceTree = "<group>"; };
+		946EEA20184197EF00AD0B11 /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		946EEA21184197EF00AD0B11 /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		946EEA22184197EF00AD0B11 /* RainbowFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainbowFoo.cpp; sourceTree = "<group>"; };
+		946EEA23184197EF00AD0B11 /* RainbowFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowFoo.h; sourceTree = "<group>"; };
+		946EEA24184197EF00AD0B11 /* RainbowLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainbowLine.cpp; sourceTree = "<group>"; };
+		946EEA25184197EF00AD0B11 /* RainbowLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowLine.h; sourceTree = "<group>"; };
+		946EEA26184197EF00AD0B11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		946EEA27184197EF00AD0B11 /* Registers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Registers.cpp; sourceTree = "<group>"; };
+		946EEA28184197EF00AD0B11 /* Registers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registers.h; sourceTree = "<group>"; };
+		946EEA29184197EF00AD0B11 /* ShiftRegister.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShiftRegister.cpp; sourceTree = "<group>"; };
+		946EEA2A184197EF00AD0B11 /* ShiftRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftRegister.h; sourceTree = "<group>"; };
+		946EEA2B184197EF00AD0B11 /* Step.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Step.cpp; sourceTree = "<group>"; };
+		946EEA2C184197EF00AD0B11 /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		946EEA2D184197EF00AD0B11 /* stepFoo1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stepFoo1.cpp; sourceTree = "<group>"; };
+		946EEA2E184197EF00AD0B11 /* stepFoo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stepFoo1.h; sourceTree = "<group>"; };
+		946EEA32184197EF00AD0B11 /* basicHeadbandSketch.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicHeadbandSketch.ino; sourceTree = "<group>"; };
+		946EEA34184197EF00AD0B11 /* basicHeadbandSketch1.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicHeadbandSketch1.ino; sourceTree = "<group>"; };
+		946EEA35184197EF00AD0B11 /* memoryTesting.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memoryTesting.ino; sourceTree = "<group>"; };
+		946EEA37184197EF00AD0B11 /* Arduino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arduino.cpp; sourceTree = "<group>"; };
+		946EEA38184197EF00AD0B11 /* Arduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arduino.h; sourceTree = "<group>"; };
+		946EEA39184197EF00AD0B11 /* Serial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Serial.cpp; sourceTree = "<group>"; };
+		946EEA3A184197EF00AD0B11 /* Serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serial.h; sourceTree = "<group>"; };
+		946EEA3B184197EF00AD0B11 /* SPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPI.cpp; sourceTree = "<group>"; };
+		946EEA3C184197EF00AD0B11 /* SPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPI.h; sourceTree = "<group>"; };
+		946EEA3D184197EF00AD0B11 /* Tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tester.cpp; sourceTree = "<group>"; };
+		946EEA3E184197EF00AD0B11 /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 		94DEC67E1841940400463DAE /* litHeadbandSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = litHeadbandSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DEC6811841940400463DAE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		94DEC6841841940400463DAE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -97,105 +196,6 @@
 		94DEC6A71841940400463DAE /* litHeadbandSimulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "litHeadbandSimulatorTests-Info.plist"; sourceTree = "<group>"; };
 		94DEC6A91841940400463DAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94DEC6AB1841940400463DAE /* litHeadbandSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = litHeadbandSimulatorTests.m; sourceTree = "<group>"; };
-		94DEC6B51841941700463DAE /* LITAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LITAppDelegate.h; path = ../../../Desktop/LITAppDelegate.h; sourceTree = "<group>"; };
-		94DEC6B61841941700463DAE /* LITAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LITAppDelegate.mm; path = ../../../Desktop/LITAppDelegate.mm; sourceTree = "<group>"; };
-		94DEC6B91841944300463DAE /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
-		94DEC6BA1841944300463DAE /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
-		94DEC6BB1841944300463DAE /* BandMeterFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BandMeterFoo.cpp; sourceTree = "<group>"; };
-		94DEC6BC1841944300463DAE /* BandMeterFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandMeterFoo.h; sourceTree = "<group>"; };
-		94DEC6BD1841944300463DAE /* Battery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battery.cpp; sourceTree = "<group>"; };
-		94DEC6BE1841944300463DAE /* Battery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battery.h; sourceTree = "<group>"; };
-		94DEC6BF1841944300463DAE /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
-		94DEC6C01841944300463DAE /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
-		94DEC6C11841944300463DAE /* ChargedFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChargedFoo.cpp; sourceTree = "<group>"; };
-		94DEC6C21841944300463DAE /* ChargedFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargedFoo.h; sourceTree = "<group>"; };
-		94DEC6C31841944300463DAE /* CirclesFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CirclesFoo.cpp; sourceTree = "<group>"; };
-		94DEC6C41841944300463DAE /* CirclesFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesFoo.h; sourceTree = "<group>"; };
-		94DEC6C51841944300463DAE /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
-		94DEC6C61841944300463DAE /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		94DEC6C71841944300463DAE /* CustomFoos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomFoos.cpp; sourceTree = "<group>"; };
-		94DEC6C81841944300463DAE /* CustomFoos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFoos.h; sourceTree = "<group>"; };
-		94DEC6C91841944300463DAE /* EMFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EMFoo.cpp; sourceTree = "<group>"; };
-		94DEC6CA1841944300463DAE /* EMFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFoo.h; sourceTree = "<group>"; };
-		94DEC6CB1841944300463DAE /* EphemeralSnakesFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EphemeralSnakesFoo.cpp; sourceTree = "<group>"; };
-		94DEC6CC1841944300463DAE /* EphemeralSnakesFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EphemeralSnakesFoo.h; sourceTree = "<group>"; };
-		94DEC6CD1841944300463DAE /* EventFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventFoo.cpp; sourceTree = "<group>"; };
-		94DEC6CE1841944300463DAE /* EventFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFoo.h; sourceTree = "<group>"; };
-		94DEC6CF1841944300463DAE /* Foo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Foo.cpp; sourceTree = "<group>"; };
-		94DEC6D01841944300463DAE /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
-		94DEC6D11841944300463DAE /* Foo2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Foo2.cpp; sourceTree = "<group>"; };
-		94DEC6D21841944300463DAE /* Foo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo2.h; sourceTree = "<group>"; };
-		94DEC6D31841944300463DAE /* FooManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FooManager.cpp; sourceTree = "<group>"; };
-		94DEC6D41841944300463DAE /* FooManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooManager.h; sourceTree = "<group>"; };
-		94DEC6D51841944300463DAE /* Force.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Force.cpp; sourceTree = "<group>"; };
-		94DEC6D61841944300463DAE /* Force.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Force.h; sourceTree = "<group>"; };
-		94DEC6D71841944300463DAE /* GravityFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GravityFoo.cpp; sourceTree = "<group>"; };
-		94DEC6D81841944300463DAE /* GravityFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityFoo.h; sourceTree = "<group>"; };
-		94DEC6D91841944300463DAE /* Hardware.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hardware.cpp; sourceTree = "<group>"; };
-		94DEC6DA1841944300463DAE /* Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hardware.h; sourceTree = "<group>"; };
-		94DEC6DB1841944300463DAE /* Headband.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Headband.cpp; sourceTree = "<group>"; };
-		94DEC6DC1841944300463DAE /* Headband.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headband.h; sourceTree = "<group>"; };
-		94DEC6DD1841944300463DAE /* InProgressCustomFoos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InProgressCustomFoos.cpp; sourceTree = "<group>"; };
-		94DEC6DE1841944300463DAE /* InProgressCustomFoos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InProgressCustomFoos.h; sourceTree = "<group>"; };
-		94DEC6DF1841944300463DAE /* KernFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KernFoo.cpp; sourceTree = "<group>"; };
-		94DEC6E01841944300463DAE /* KernFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernFoo.h; sourceTree = "<group>"; };
-		94DEC6E11841944300463DAE /* LED.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LED.cpp; sourceTree = "<group>"; };
-		94DEC6E21841944300463DAE /* LED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LED.h; sourceTree = "<group>"; };
-		94DEC6E31841944300463DAE /* LinkedFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedFoo.cpp; sourceTree = "<group>"; };
-		94DEC6E41841944300463DAE /* LinkedFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedFoo.h; sourceTree = "<group>"; };
-		94DEC6E51841944300463DAE /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
-		94DEC6E61841944300463DAE /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
-		94DEC6E71841944300463DAE /* ListenerFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListenerFoo.cpp; sourceTree = "<group>"; };
-		94DEC6E81841944300463DAE /* ListenerFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenerFoo.h; sourceTree = "<group>"; };
-		94DEC6E91841944300463DAE /* LIT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LIT.cpp; sourceTree = "<group>"; };
-		94DEC6EA1841944300463DAE /* LIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIT.h; sourceTree = "<group>"; };
-		94DEC6EB1841944300463DAE /* LITColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LITColor.cpp; sourceTree = "<group>"; };
-		94DEC6EC1841944300463DAE /* LITColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITColor.h; sourceTree = "<group>"; };
-		94DEC6ED1841944300463DAE /* LITFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LITFunctions.cpp; sourceTree = "<group>"; };
-		94DEC6EE1841944300463DAE /* LITFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITFunctions.h; sourceTree = "<group>"; };
-		94DEC6EF1841944300463DAE /* LPD8806.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LPD8806.cpp; sourceTree = "<group>"; };
-		94DEC6F01841944300463DAE /* LPD8806.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPD8806.h; sourceTree = "<group>"; };
-		94DEC6F11841944300463DAE /* MassFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MassFoo.cpp; sourceTree = "<group>"; };
-		94DEC6F21841944300463DAE /* MassFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassFoo.h; sourceTree = "<group>"; };
-		94DEC6F31841944300463DAE /* MCP4131.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCP4131.cpp; sourceTree = "<group>"; };
-		94DEC6F41841944300463DAE /* MCP4131.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCP4131.h; sourceTree = "<group>"; };
-		94DEC6F51841944300463DAE /* MemTestingFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemTestingFoo.cpp; sourceTree = "<group>"; };
-		94DEC6F61841944300463DAE /* MemTestingFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemTestingFoo.h; sourceTree = "<group>"; };
-		94DEC6F71841944300463DAE /* MovingFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MovingFoo.cpp; sourceTree = "<group>"; };
-		94DEC6F81841944300463DAE /* MovingFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingFoo.h; sourceTree = "<group>"; };
-		94DEC6F91841944300463DAE /* MSGEQ7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MSGEQ7.cpp; sourceTree = "<group>"; };
-		94DEC6FA1841944300463DAE /* MSGEQ7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGEQ7.h; sourceTree = "<group>"; };
-		94DEC6FB1841944300463DAE /* MultipleBouncingFoos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleBouncingFoos.cpp; sourceTree = "<group>"; };
-		94DEC6FC1841944300463DAE /* MultipleBouncingFoos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleBouncingFoos.h; sourceTree = "<group>"; };
-		94DEC6FD1841944300463DAE /* OscillatingFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscillatingFoo.cpp; sourceTree = "<group>"; };
-		94DEC6FE1841944300463DAE /* OscillatingFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscillatingFoo.h; sourceTree = "<group>"; };
-		94DEC6FF1841944300463DAE /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
-		94DEC7001841944300463DAE /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
-		94DEC7011841944300463DAE /* RainbowFoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainbowFoo.cpp; sourceTree = "<group>"; };
-		94DEC7021841944300463DAE /* RainbowFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowFoo.h; sourceTree = "<group>"; };
-		94DEC7031841944300463DAE /* RainbowLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RainbowLine.cpp; sourceTree = "<group>"; };
-		94DEC7041841944300463DAE /* RainbowLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowLine.h; sourceTree = "<group>"; };
-		94DEC7051841944300463DAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		94DEC7061841944300463DAE /* Registers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Registers.cpp; sourceTree = "<group>"; };
-		94DEC7071841944300463DAE /* Registers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registers.h; sourceTree = "<group>"; };
-		94DEC7081841944300463DAE /* ShiftRegister.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShiftRegister.cpp; sourceTree = "<group>"; };
-		94DEC7091841944300463DAE /* ShiftRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftRegister.h; sourceTree = "<group>"; };
-		94DEC70A1841944300463DAE /* Step.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Step.cpp; sourceTree = "<group>"; };
-		94DEC70B1841944300463DAE /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
-		94DEC70C1841944300463DAE /* stepFoo1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stepFoo1.cpp; sourceTree = "<group>"; };
-		94DEC70D1841944300463DAE /* stepFoo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stepFoo1.h; sourceTree = "<group>"; };
-		94DEC7111841944300463DAE /* basicHeadbandSketch.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicHeadbandSketch.ino; sourceTree = "<group>"; };
-		94DEC7131841944300463DAE /* basicHeadbandSketch1.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicHeadbandSketch1.ino; sourceTree = "<group>"; };
-		94DEC7141841944300463DAE /* memoryTesting.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memoryTesting.ino; sourceTree = "<group>"; };
-		94DEC7161841944300463DAE /* Arduino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arduino.cpp; sourceTree = "<group>"; };
-		94DEC7171841944300463DAE /* Arduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arduino.h; sourceTree = "<group>"; };
-		94DEC7181841944300463DAE /* Serial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Serial.cpp; sourceTree = "<group>"; };
-		94DEC7191841944300463DAE /* Serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serial.h; sourceTree = "<group>"; };
-		94DEC71A1841944300463DAE /* SPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPI.cpp; sourceTree = "<group>"; };
-		94DEC71B1841944300463DAE /* SPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPI.h; sourceTree = "<group>"; };
-		94DEC71C1841944300463DAE /* Tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tester.cpp; sourceTree = "<group>"; };
-		94DEC71D1841944300463DAE /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
-		94DEC7501841958800463DAE /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../../Desktop/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,10 +219,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		946EE9D9184197EF00AD0B11 /* LITHeadband */ = {
+			isa = PBXGroup;
+			children = (
+				946EE9DA184197EF00AD0B11 /* Audio.cpp */,
+				946EE9DB184197EF00AD0B11 /* Audio.h */,
+				946EE9DC184197EF00AD0B11 /* BandMeterFoo.cpp */,
+				946EE9DD184197EF00AD0B11 /* BandMeterFoo.h */,
+				946EE9DE184197EF00AD0B11 /* Battery.cpp */,
+				946EE9DF184197EF00AD0B11 /* Battery.h */,
+				946EE9E0184197EF00AD0B11 /* Button.cpp */,
+				946EE9E1184197EF00AD0B11 /* Button.h */,
+				946EE9E2184197EF00AD0B11 /* ChargedFoo.cpp */,
+				946EE9E3184197EF00AD0B11 /* ChargedFoo.h */,
+				946EE9E4184197EF00AD0B11 /* CirclesFoo.cpp */,
+				946EE9E5184197EF00AD0B11 /* CirclesFoo.h */,
+				946EE9E6184197EF00AD0B11 /* Color.cpp */,
+				946EE9E7184197EF00AD0B11 /* Color.h */,
+				946EE9E8184197EF00AD0B11 /* CustomFoos.cpp */,
+				946EE9E9184197EF00AD0B11 /* CustomFoos.h */,
+				946EE9EA184197EF00AD0B11 /* EMFoo.cpp */,
+				946EE9EB184197EF00AD0B11 /* EMFoo.h */,
+				946EE9EC184197EF00AD0B11 /* EphemeralSnakesFoo.cpp */,
+				946EE9ED184197EF00AD0B11 /* EphemeralSnakesFoo.h */,
+				946EE9EE184197EF00AD0B11 /* EventFoo.cpp */,
+				946EE9EF184197EF00AD0B11 /* EventFoo.h */,
+				946EE9F0184197EF00AD0B11 /* Foo.cpp */,
+				946EE9F1184197EF00AD0B11 /* Foo.h */,
+				946EE9F2184197EF00AD0B11 /* Foo2.cpp */,
+				946EE9F3184197EF00AD0B11 /* Foo2.h */,
+				946EE9F4184197EF00AD0B11 /* FooManager.cpp */,
+				946EE9F5184197EF00AD0B11 /* FooManager.h */,
+				946EE9F6184197EF00AD0B11 /* Force.cpp */,
+				946EE9F7184197EF00AD0B11 /* Force.h */,
+				946EE9F8184197EF00AD0B11 /* GravityFoo.cpp */,
+				946EE9F9184197EF00AD0B11 /* GravityFoo.h */,
+				946EE9FA184197EF00AD0B11 /* Hardware.cpp */,
+				946EE9FB184197EF00AD0B11 /* Hardware.h */,
+				946EE9FC184197EF00AD0B11 /* Headband.cpp */,
+				946EE9FD184197EF00AD0B11 /* Headband.h */,
+				946EE9FE184197EF00AD0B11 /* InProgressCustomFoos.cpp */,
+				946EE9FF184197EF00AD0B11 /* InProgressCustomFoos.h */,
+				946EEA00184197EF00AD0B11 /* KernFoo.cpp */,
+				946EEA01184197EF00AD0B11 /* KernFoo.h */,
+				946EEA02184197EF00AD0B11 /* LED.cpp */,
+				946EEA03184197EF00AD0B11 /* LED.h */,
+				946EEA04184197EF00AD0B11 /* LinkedFoo.cpp */,
+				946EEA05184197EF00AD0B11 /* LinkedFoo.h */,
+				946EEA06184197EF00AD0B11 /* LinkedList.cpp */,
+				946EEA07184197EF00AD0B11 /* LinkedList.h */,
+				946EEA08184197EF00AD0B11 /* ListenerFoo.cpp */,
+				946EEA09184197EF00AD0B11 /* ListenerFoo.h */,
+				946EEA0A184197EF00AD0B11 /* LIT.cpp */,
+				946EEA0B184197EF00AD0B11 /* LIT.h */,
+				946EEA0C184197EF00AD0B11 /* LITColor.cpp */,
+				946EEA0D184197EF00AD0B11 /* LITColor.h */,
+				946EEA0E184197EF00AD0B11 /* LITFunctions.cpp */,
+				946EEA0F184197EF00AD0B11 /* LITFunctions.h */,
+				946EEA10184197EF00AD0B11 /* LPD8806.cpp */,
+				946EEA11184197EF00AD0B11 /* LPD8806.h */,
+				946EEA12184197EF00AD0B11 /* MassFoo.cpp */,
+				946EEA13184197EF00AD0B11 /* MassFoo.h */,
+				946EEA14184197EF00AD0B11 /* MCP4131.cpp */,
+				946EEA15184197EF00AD0B11 /* MCP4131.h */,
+				946EEA16184197EF00AD0B11 /* MemTestingFoo.cpp */,
+				946EEA17184197EF00AD0B11 /* MemTestingFoo.h */,
+				946EEA18184197EF00AD0B11 /* MovingFoo.cpp */,
+				946EEA19184197EF00AD0B11 /* MovingFoo.h */,
+				946EEA1A184197EF00AD0B11 /* MSGEQ7.cpp */,
+				946EEA1B184197EF00AD0B11 /* MSGEQ7.h */,
+				946EEA1C184197EF00AD0B11 /* MultipleBouncingFoos.cpp */,
+				946EEA1D184197EF00AD0B11 /* MultipleBouncingFoos.h */,
+				946EEA1E184197EF00AD0B11 /* OscillatingFoo.cpp */,
+				946EEA1F184197EF00AD0B11 /* OscillatingFoo.h */,
+				946EEA20184197EF00AD0B11 /* Parameters.cpp */,
+				946EEA21184197EF00AD0B11 /* Parameters.h */,
+				946EEA22184197EF00AD0B11 /* RainbowFoo.cpp */,
+				946EEA23184197EF00AD0B11 /* RainbowFoo.h */,
+				946EEA24184197EF00AD0B11 /* RainbowLine.cpp */,
+				946EEA25184197EF00AD0B11 /* RainbowLine.h */,
+				946EEA26184197EF00AD0B11 /* README.md */,
+				946EEA27184197EF00AD0B11 /* Registers.cpp */,
+				946EEA28184197EF00AD0B11 /* Registers.h */,
+				946EEA29184197EF00AD0B11 /* ShiftRegister.cpp */,
+				946EEA2A184197EF00AD0B11 /* ShiftRegister.h */,
+				946EEA2B184197EF00AD0B11 /* Step.cpp */,
+				946EEA2C184197EF00AD0B11 /* Step.h */,
+				946EEA2D184197EF00AD0B11 /* stepFoo1.cpp */,
+				946EEA2E184197EF00AD0B11 /* stepFoo1.h */,
+				946EEA2F184197EF00AD0B11 /* support */,
+			);
+			name = LITHeadband;
+			path = ../../../../../../../../../Applications/Arduino.app/Contents/Resources/Java/libraries/LITHeadband;
+			sourceTree = "<group>";
+		};
+		946EEA2F184197EF00AD0B11 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				946EEA30184197EF00AD0B11 /* exampleSketches */,
+				946EEA36184197EF00AD0B11 /* placeholders */,
+				946EEA3D184197EF00AD0B11 /* Tester.cpp */,
+				946EEA3E184197EF00AD0B11 /* Tester.h */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		946EEA30184197EF00AD0B11 /* exampleSketches */ = {
+			isa = PBXGroup;
+			children = (
+				946EEA31184197EF00AD0B11 /* basicHeadbandSketch */,
+				946EEA33184197EF00AD0B11 /* basicHeadbandSketch1 */,
+				946EEA35184197EF00AD0B11 /* memoryTesting.ino */,
+			);
+			path = exampleSketches;
+			sourceTree = "<group>";
+		};
+		946EEA31184197EF00AD0B11 /* basicHeadbandSketch */ = {
+			isa = PBXGroup;
+			children = (
+				946EEA32184197EF00AD0B11 /* basicHeadbandSketch.ino */,
+			);
+			path = basicHeadbandSketch;
+			sourceTree = "<group>";
+		};
+		946EEA33184197EF00AD0B11 /* basicHeadbandSketch1 */ = {
+			isa = PBXGroup;
+			children = (
+				946EEA34184197EF00AD0B11 /* basicHeadbandSketch1.ino */,
+			);
+			path = basicHeadbandSketch1;
+			sourceTree = "<group>";
+		};
+		946EEA36184197EF00AD0B11 /* placeholders */ = {
+			isa = PBXGroup;
+			children = (
+				946EEA37184197EF00AD0B11 /* Arduino.cpp */,
+				946EEA38184197EF00AD0B11 /* Arduino.h */,
+				946EEA39184197EF00AD0B11 /* Serial.cpp */,
+				946EEA3A184197EF00AD0B11 /* Serial.h */,
+				946EEA3B184197EF00AD0B11 /* SPI.cpp */,
+				946EEA3C184197EF00AD0B11 /* SPI.h */,
+			);
+			path = placeholders;
+			sourceTree = "<group>";
+		};
 		94DEC6751841940400463DAE = {
 			isa = PBXGroup;
 			children = (
-				94DEC7501841958800463DAE /* MainMenu.xib */,
+				946EE9D31841977600AD0B11 /* MainMenu.xib */,
 				94DEC6871841940400463DAE /* litHeadbandSimulator */,
 				94DEC6A51841940400463DAE /* litHeadbandSimulatorTests */,
 				94DEC6801841940400463DAE /* Frameworks */,
@@ -262,9 +406,9 @@
 		94DEC6871841940400463DAE /* litHeadbandSimulator */ = {
 			isa = PBXGroup;
 			children = (
-				94DEC6B81841944300463DAE /* LITHeadband */,
-				94DEC6B51841941700463DAE /* LITAppDelegate.h */,
-				94DEC6B61841941700463DAE /* LITAppDelegate.mm */,
+				946EE9D9184197EF00AD0B11 /* LITHeadband */,
+				946EE9D61841978000AD0B11 /* LITAppDelegate.h */,
+				946EE9D71841978000AD0B11 /* LITAppDelegate.mm */,
 				94DEC6991841940400463DAE /* Images.xcassets */,
 				94DEC6881841940400463DAE /* Supporting Files */,
 			);
@@ -299,150 +443,6 @@
 				94DEC6A81841940400463DAE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		94DEC6B81841944300463DAE /* LITHeadband */ = {
-			isa = PBXGroup;
-			children = (
-				94DEC6B91841944300463DAE /* Audio.cpp */,
-				94DEC6BA1841944300463DAE /* Audio.h */,
-				94DEC6BB1841944300463DAE /* BandMeterFoo.cpp */,
-				94DEC6BC1841944300463DAE /* BandMeterFoo.h */,
-				94DEC6BD1841944300463DAE /* Battery.cpp */,
-				94DEC6BE1841944300463DAE /* Battery.h */,
-				94DEC6BF1841944300463DAE /* Button.cpp */,
-				94DEC6C01841944300463DAE /* Button.h */,
-				94DEC6C11841944300463DAE /* ChargedFoo.cpp */,
-				94DEC6C21841944300463DAE /* ChargedFoo.h */,
-				94DEC6C31841944300463DAE /* CirclesFoo.cpp */,
-				94DEC6C41841944300463DAE /* CirclesFoo.h */,
-				94DEC6C51841944300463DAE /* Color.cpp */,
-				94DEC6C61841944300463DAE /* Color.h */,
-				94DEC6C71841944300463DAE /* CustomFoos.cpp */,
-				94DEC6C81841944300463DAE /* CustomFoos.h */,
-				94DEC6C91841944300463DAE /* EMFoo.cpp */,
-				94DEC6CA1841944300463DAE /* EMFoo.h */,
-				94DEC6CB1841944300463DAE /* EphemeralSnakesFoo.cpp */,
-				94DEC6CC1841944300463DAE /* EphemeralSnakesFoo.h */,
-				94DEC6CD1841944300463DAE /* EventFoo.cpp */,
-				94DEC6CE1841944300463DAE /* EventFoo.h */,
-				94DEC6CF1841944300463DAE /* Foo.cpp */,
-				94DEC6D01841944300463DAE /* Foo.h */,
-				94DEC6D11841944300463DAE /* Foo2.cpp */,
-				94DEC6D21841944300463DAE /* Foo2.h */,
-				94DEC6D31841944300463DAE /* FooManager.cpp */,
-				94DEC6D41841944300463DAE /* FooManager.h */,
-				94DEC6D51841944300463DAE /* Force.cpp */,
-				94DEC6D61841944300463DAE /* Force.h */,
-				94DEC6D71841944300463DAE /* GravityFoo.cpp */,
-				94DEC6D81841944300463DAE /* GravityFoo.h */,
-				94DEC6D91841944300463DAE /* Hardware.cpp */,
-				94DEC6DA1841944300463DAE /* Hardware.h */,
-				94DEC6DB1841944300463DAE /* Headband.cpp */,
-				94DEC6DC1841944300463DAE /* Headband.h */,
-				94DEC6DD1841944300463DAE /* InProgressCustomFoos.cpp */,
-				94DEC6DE1841944300463DAE /* InProgressCustomFoos.h */,
-				94DEC6DF1841944300463DAE /* KernFoo.cpp */,
-				94DEC6E01841944300463DAE /* KernFoo.h */,
-				94DEC6E11841944300463DAE /* LED.cpp */,
-				94DEC6E21841944300463DAE /* LED.h */,
-				94DEC6E31841944300463DAE /* LinkedFoo.cpp */,
-				94DEC6E41841944300463DAE /* LinkedFoo.h */,
-				94DEC6E51841944300463DAE /* LinkedList.cpp */,
-				94DEC6E61841944300463DAE /* LinkedList.h */,
-				94DEC6E71841944300463DAE /* ListenerFoo.cpp */,
-				94DEC6E81841944300463DAE /* ListenerFoo.h */,
-				94DEC6E91841944300463DAE /* LIT.cpp */,
-				94DEC6EA1841944300463DAE /* LIT.h */,
-				94DEC6EB1841944300463DAE /* LITColor.cpp */,
-				94DEC6EC1841944300463DAE /* LITColor.h */,
-				94DEC6ED1841944300463DAE /* LITFunctions.cpp */,
-				94DEC6EE1841944300463DAE /* LITFunctions.h */,
-				94DEC6EF1841944300463DAE /* LPD8806.cpp */,
-				94DEC6F01841944300463DAE /* LPD8806.h */,
-				94DEC6F11841944300463DAE /* MassFoo.cpp */,
-				94DEC6F21841944300463DAE /* MassFoo.h */,
-				94DEC6F31841944300463DAE /* MCP4131.cpp */,
-				94DEC6F41841944300463DAE /* MCP4131.h */,
-				94DEC6F51841944300463DAE /* MemTestingFoo.cpp */,
-				94DEC6F61841944300463DAE /* MemTestingFoo.h */,
-				94DEC6F71841944300463DAE /* MovingFoo.cpp */,
-				94DEC6F81841944300463DAE /* MovingFoo.h */,
-				94DEC6F91841944300463DAE /* MSGEQ7.cpp */,
-				94DEC6FA1841944300463DAE /* MSGEQ7.h */,
-				94DEC6FB1841944300463DAE /* MultipleBouncingFoos.cpp */,
-				94DEC6FC1841944300463DAE /* MultipleBouncingFoos.h */,
-				94DEC6FD1841944300463DAE /* OscillatingFoo.cpp */,
-				94DEC6FE1841944300463DAE /* OscillatingFoo.h */,
-				94DEC6FF1841944300463DAE /* Parameters.cpp */,
-				94DEC7001841944300463DAE /* Parameters.h */,
-				94DEC7011841944300463DAE /* RainbowFoo.cpp */,
-				94DEC7021841944300463DAE /* RainbowFoo.h */,
-				94DEC7031841944300463DAE /* RainbowLine.cpp */,
-				94DEC7041841944300463DAE /* RainbowLine.h */,
-				94DEC7051841944300463DAE /* README.md */,
-				94DEC7061841944300463DAE /* Registers.cpp */,
-				94DEC7071841944300463DAE /* Registers.h */,
-				94DEC7081841944300463DAE /* ShiftRegister.cpp */,
-				94DEC7091841944300463DAE /* ShiftRegister.h */,
-				94DEC70A1841944300463DAE /* Step.cpp */,
-				94DEC70B1841944300463DAE /* Step.h */,
-				94DEC70C1841944300463DAE /* stepFoo1.cpp */,
-				94DEC70D1841944300463DAE /* stepFoo1.h */,
-				94DEC70E1841944300463DAE /* support */,
-			);
-			name = LITHeadband;
-			path = ../../../../../Applications/Arduino.app/Contents/Resources/Java/libraries/LITHeadband;
-			sourceTree = "<group>";
-		};
-		94DEC70E1841944300463DAE /* support */ = {
-			isa = PBXGroup;
-			children = (
-				94DEC70F1841944300463DAE /* exampleSketches */,
-				94DEC7151841944300463DAE /* placeholders */,
-				94DEC71C1841944300463DAE /* Tester.cpp */,
-				94DEC71D1841944300463DAE /* Tester.h */,
-			);
-			path = support;
-			sourceTree = "<group>";
-		};
-		94DEC70F1841944300463DAE /* exampleSketches */ = {
-			isa = PBXGroup;
-			children = (
-				94DEC7101841944300463DAE /* basicHeadbandSketch */,
-				94DEC7121841944300463DAE /* basicHeadbandSketch1 */,
-				94DEC7141841944300463DAE /* memoryTesting.ino */,
-			);
-			path = exampleSketches;
-			sourceTree = "<group>";
-		};
-		94DEC7101841944300463DAE /* basicHeadbandSketch */ = {
-			isa = PBXGroup;
-			children = (
-				94DEC7111841944300463DAE /* basicHeadbandSketch.ino */,
-			);
-			path = basicHeadbandSketch;
-			sourceTree = "<group>";
-		};
-		94DEC7121841944300463DAE /* basicHeadbandSketch1 */ = {
-			isa = PBXGroup;
-			children = (
-				94DEC7131841944300463DAE /* basicHeadbandSketch1.ino */,
-			);
-			path = basicHeadbandSketch1;
-			sourceTree = "<group>";
-		};
-		94DEC7151841944300463DAE /* placeholders */ = {
-			isa = PBXGroup;
-			children = (
-				94DEC7161841944300463DAE /* Arduino.cpp */,
-				94DEC7171841944300463DAE /* Arduino.h */,
-				94DEC7181841944300463DAE /* Serial.cpp */,
-				94DEC7191841944300463DAE /* Serial.h */,
-				94DEC71A1841944300463DAE /* SPI.cpp */,
-				94DEC71B1841944300463DAE /* SPI.h */,
-			);
-			path = placeholders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,13 +523,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DEC68C1841940400463DAE /* InfoPlist.strings in Resources */,
-				94DEC74A1841944300463DAE /* basicHeadbandSketch1.ino in Resources */,
+				946EEA6B184197EF00AD0B11 /* basicHeadbandSketch1.ino in Resources */,
 				94DEC69A1841940400463DAE /* Images.xcassets in Resources */,
-				94DEC7441841944300463DAE /* README.md in Resources */,
-				94DEC74B1841944300463DAE /* memoryTesting.ino in Resources */,
+				946EEA65184197EF00AD0B11 /* README.md in Resources */,
+				946EEA6C184197EF00AD0B11 /* memoryTesting.ino in Resources */,
 				94DEC6921841940400463DAE /* Credits.rtf in Resources */,
-				94DEC7491841944300463DAE /* basicHeadbandSketch.ino in Resources */,
-				94DEC7511841958800463DAE /* MainMenu.xib in Resources */,
+				946EEA6A184197EF00AD0B11 /* basicHeadbandSketch.ino in Resources */,
+				946EE9D51841977600AD0B11 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,54 +548,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DEC7351841944300463DAE /* ListenerFoo.cpp in Sources */,
-				94DEC7411841944300463DAE /* Parameters.cpp in Sources */,
-				94DEC74F1841944300463DAE /* Tester.cpp in Sources */,
-				94DEC7231841944300463DAE /* CirclesFoo.cpp in Sources */,
-				94DEC73D1841944300463DAE /* MovingFoo.cpp in Sources */,
-				94DEC7451841944300463DAE /* Registers.cpp in Sources */,
-				94DEC6B71841941700463DAE /* LITAppDelegate.mm in Sources */,
-				94DEC73A1841944300463DAE /* MassFoo.cpp in Sources */,
-				94DEC7201841944300463DAE /* Battery.cpp in Sources */,
-				94DEC73B1841944300463DAE /* MCP4131.cpp in Sources */,
-				94DEC74C1841944300463DAE /* Arduino.cpp in Sources */,
-				94DEC7281841944300463DAE /* EventFoo.cpp in Sources */,
-				94DEC7271841944300463DAE /* EphemeralSnakesFoo.cpp in Sources */,
-				94DEC7431841944300463DAE /* RainbowLine.cpp in Sources */,
-				94DEC73F1841944300463DAE /* MultipleBouncingFoos.cpp in Sources */,
-				94DEC7471841944300463DAE /* Step.cpp in Sources */,
+				946EEA56184197EF00AD0B11 /* ListenerFoo.cpp in Sources */,
+				946EEA62184197EF00AD0B11 /* Parameters.cpp in Sources */,
+				946EEA70184197EF00AD0B11 /* Tester.cpp in Sources */,
+				946EEA44184197EF00AD0B11 /* CirclesFoo.cpp in Sources */,
+				946EEA5E184197EF00AD0B11 /* MovingFoo.cpp in Sources */,
+				946EEA66184197EF00AD0B11 /* Registers.cpp in Sources */,
+				946EE9D81841978000AD0B11 /* LITAppDelegate.mm in Sources */,
+				946EEA5B184197EF00AD0B11 /* MassFoo.cpp in Sources */,
+				946EEA41184197EF00AD0B11 /* Battery.cpp in Sources */,
+				946EEA5C184197EF00AD0B11 /* MCP4131.cpp in Sources */,
+				946EEA6D184197EF00AD0B11 /* Arduino.cpp in Sources */,
+				946EEA49184197EF00AD0B11 /* EventFoo.cpp in Sources */,
+				946EEA48184197EF00AD0B11 /* EphemeralSnakesFoo.cpp in Sources */,
+				946EEA64184197EF00AD0B11 /* RainbowLine.cpp in Sources */,
+				946EEA60184197EF00AD0B11 /* MultipleBouncingFoos.cpp in Sources */,
+				946EEA68184197EF00AD0B11 /* Step.cpp in Sources */,
 				94DEC68E1841940400463DAE /* main.m in Sources */,
-				94DEC72C1841944300463DAE /* Force.cpp in Sources */,
-				94DEC7391841944300463DAE /* LPD8806.cpp in Sources */,
-				94DEC73C1841944300463DAE /* MemTestingFoo.cpp in Sources */,
-				94DEC7341841944300463DAE /* LinkedList.cpp in Sources */,
-				94DEC7291841944300463DAE /* Foo.cpp in Sources */,
-				94DEC71E1841944300463DAE /* Audio.cpp in Sources */,
-				94DEC7221841944300463DAE /* ChargedFoo.cpp in Sources */,
-				94DEC72A1841944300463DAE /* Foo2.cpp in Sources */,
-				94DEC7401841944300463DAE /* OscillatingFoo.cpp in Sources */,
-				94DEC74E1841944300463DAE /* SPI.cpp in Sources */,
-				94DEC7371841944300463DAE /* LITColor.cpp in Sources */,
-				94DEC7321841944300463DAE /* LED.cpp in Sources */,
-				94DEC72E1841944300463DAE /* Hardware.cpp in Sources */,
-				94DEC72F1841944300463DAE /* Headband.cpp in Sources */,
-				94DEC71F1841944300463DAE /* BandMeterFoo.cpp in Sources */,
-				94DEC7301841944300463DAE /* InProgressCustomFoos.cpp in Sources */,
-				94DEC7461841944300463DAE /* ShiftRegister.cpp in Sources */,
-				94DEC7251841944300463DAE /* CustomFoos.cpp in Sources */,
-				94DEC7331841944300463DAE /* LinkedFoo.cpp in Sources */,
-				94DEC7381841944300463DAE /* LITFunctions.cpp in Sources */,
-				94DEC7481841944300463DAE /* stepFoo1.cpp in Sources */,
-				94DEC7311841944300463DAE /* KernFoo.cpp in Sources */,
-				94DEC72D1841944300463DAE /* GravityFoo.cpp in Sources */,
-				94DEC7261841944300463DAE /* EMFoo.cpp in Sources */,
-				94DEC7241841944300463DAE /* Color.cpp in Sources */,
-				94DEC73E1841944300463DAE /* MSGEQ7.cpp in Sources */,
-				94DEC7361841944300463DAE /* LIT.cpp in Sources */,
-				94DEC7421841944300463DAE /* RainbowFoo.cpp in Sources */,
-				94DEC72B1841944300463DAE /* FooManager.cpp in Sources */,
-				94DEC7211841944300463DAE /* Button.cpp in Sources */,
-				94DEC74D1841944300463DAE /* Serial.cpp in Sources */,
+				946EEA4D184197EF00AD0B11 /* Force.cpp in Sources */,
+				946EEA5A184197EF00AD0B11 /* LPD8806.cpp in Sources */,
+				946EEA5D184197EF00AD0B11 /* MemTestingFoo.cpp in Sources */,
+				946EEA55184197EF00AD0B11 /* LinkedList.cpp in Sources */,
+				946EEA4A184197EF00AD0B11 /* Foo.cpp in Sources */,
+				946EEA3F184197EF00AD0B11 /* Audio.cpp in Sources */,
+				946EEA43184197EF00AD0B11 /* ChargedFoo.cpp in Sources */,
+				946EEA4B184197EF00AD0B11 /* Foo2.cpp in Sources */,
+				946EEA61184197EF00AD0B11 /* OscillatingFoo.cpp in Sources */,
+				946EEA6F184197EF00AD0B11 /* SPI.cpp in Sources */,
+				946EEA58184197EF00AD0B11 /* LITColor.cpp in Sources */,
+				946EEA53184197EF00AD0B11 /* LED.cpp in Sources */,
+				946EEA4F184197EF00AD0B11 /* Hardware.cpp in Sources */,
+				946EEA50184197EF00AD0B11 /* Headband.cpp in Sources */,
+				946EEA40184197EF00AD0B11 /* BandMeterFoo.cpp in Sources */,
+				946EEA51184197EF00AD0B11 /* InProgressCustomFoos.cpp in Sources */,
+				946EEA67184197EF00AD0B11 /* ShiftRegister.cpp in Sources */,
+				946EEA46184197EF00AD0B11 /* CustomFoos.cpp in Sources */,
+				946EEA54184197EF00AD0B11 /* LinkedFoo.cpp in Sources */,
+				946EEA59184197EF00AD0B11 /* LITFunctions.cpp in Sources */,
+				946EEA69184197EF00AD0B11 /* stepFoo1.cpp in Sources */,
+				946EEA52184197EF00AD0B11 /* KernFoo.cpp in Sources */,
+				946EEA4E184197EF00AD0B11 /* GravityFoo.cpp in Sources */,
+				946EEA47184197EF00AD0B11 /* EMFoo.cpp in Sources */,
+				946EEA45184197EF00AD0B11 /* Color.cpp in Sources */,
+				946EEA5F184197EF00AD0B11 /* MSGEQ7.cpp in Sources */,
+				946EEA57184197EF00AD0B11 /* LIT.cpp in Sources */,
+				946EEA63184197EF00AD0B11 /* RainbowFoo.cpp in Sources */,
+				946EEA4C184197EF00AD0B11 /* FooManager.cpp in Sources */,
+				946EEA42184197EF00AD0B11 /* Button.cpp in Sources */,
+				946EEA6E184197EF00AD0B11 /* Serial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +618,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		946EE9D31841977600AD0B11 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946EE9D41841977600AD0B11 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		94DEC68A1841940400463DAE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -800,6 +808,7 @@
 				94DEC6B11841940400463DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94DEC6B21841940400463DAE /* Build configuration list for PBXNativeTarget "litHeadbandSimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -808,6 +817,7 @@
 				94DEC6B41841940400463DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
